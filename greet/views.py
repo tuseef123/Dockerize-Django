@@ -4,4 +4,4 @@ from django.http import HttpResponse
 
 
 def greet(request):
-    return HttpResponse('<h2>Hello from greet</h2>')
+    return HttpResponse('<h2>Hello from greet function</h2>')
